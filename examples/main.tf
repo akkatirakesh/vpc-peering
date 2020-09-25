@@ -3,7 +3,7 @@ module "aws_vpc_peering" {
   peer_owner_id = var.owner_id
 }
 variable "owner_id" {
-  default = "000679557138"
+  default = ""
 }
 
 provider "aws" {
